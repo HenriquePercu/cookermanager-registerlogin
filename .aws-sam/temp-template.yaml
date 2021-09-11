@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: lambda_function.lambda_handler
+      CodeUri: E:\desenv\workspaces\backend\registerlogin\cookermanager-registerlogin\lambda_processor
+      Runtime: python3.8
