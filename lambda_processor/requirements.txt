@@ -4,3 +4,4 @@ cffi==1.14.5
 pycparser==2.20
 six==1.16.0
 dataclasses_json
+pytest==2.9.1

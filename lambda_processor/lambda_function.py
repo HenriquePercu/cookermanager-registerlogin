@@ -1,8 +1,5 @@
 import json
-#from service.create_user_login import create_user_login
 from model.user import User
-from criptography.cript_utils import encrypt
-
 
 # import requests
 
